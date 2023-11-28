@@ -14,31 +14,33 @@ const Welcome = ({ navigation }) => {
     >
       <View style={{ flex: 1, alignContent: "center" }}>
         <View>
-          <Image source={require("../assets/FQTxt.png")}></Image>
+          <Image source={require("../assets/HomeBG.jpg")}style ={{height: 1050, width: 650}}/> 
+      
         </View>
         {/* content */}
         <View
           style={{
-            paddingHorizontal: 22,
+            paddingHorizontal: 45,
             position: "absolute",
-            top: 340,
+            top: 330,
             width: "100%",
+         
           }}
         >
           <Text
             style={{
               fontSize: 50,
               fontWeight: 800,
-              color: COLORS.white,
+              color: COLORS.lightsteelblue,
             }}
           >
             Let's Get
           </Text>
-          <Text
+          <Text 
             style={{
               fontSize: 45,
               fontWeight: 800,
-              color: COLORS.white,
+              color: COLORS.lightsteelblue,
             }}
           >
             Started
@@ -49,20 +51,20 @@ const Welcome = ({ navigation }) => {
               style={{
                 fontSize: 16,
                 color: COLORS.white,
-                textAlign: "justify",
+               alignItems: "center",
                 top: 10,
+  
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             
             </Text>
           </View>
 
           <Button
-            title="Join Now"
+            title="START"
             onPress={() => navigation.navigate("Register")}
             style={{
-              marginTop: 70,
+              marginTop: 75,
               width: "100%",
             }}
           />
@@ -86,7 +88,7 @@ const Welcome = ({ navigation }) => {
               <Text
                 style={{
                   fontSize: 16,
-                  color: COLORS.secondary,
+                  color: COLORS.orange,
                   fontWeight: "bold",
                   marginLeft: 4,
                 }}

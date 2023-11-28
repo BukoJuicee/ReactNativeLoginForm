@@ -12,7 +12,7 @@ const Register = ({navigation}) => {
   const [passwordShown, setPasswordShown] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightsteelblue }}>
       <View style={{ flex: 1, marginHorizontal: 22 }}>
       <View >
 
@@ -226,7 +226,7 @@ const Register = ({navigation}) => {
               style={{ marginRight: 8 }}
               value={isChecked}
               onValueChange={setIsChecked}
-              color={isChecked ? COLORS.green : undefined}
+              color={isChecked ? COLORS.seagreen : undefined}
             />
             <Text>I agree to the terms and conditions</Text>
           </View>
@@ -274,7 +274,7 @@ const Register = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -301,7 +301,7 @@ const Register = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -328,7 +328,7 @@ const Register = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -358,7 +358,7 @@ const Register = ({navigation}) => {
                     >
                         <Text style={{
                             fontSize: 16,
-                            color: COLORS.primary,
+                            color: COLORS.steelblue,
                             fontWeight: "bold",
                             marginLeft: 6
                         }}>Login</Text>

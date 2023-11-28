@@ -12,7 +12,7 @@ const Login = ({navigation}) => {
   const [passwordShown, setPasswordShown] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightsteelblue }}>
       <View style={{ flex: 1, marginHorizontal: 22 }}>
       <View >
 
@@ -205,7 +205,7 @@ const Login = ({navigation}) => {
                     >
                         <Text style={{
                             fontSize: 16,
-                            color: COLORS.primary,
+                            color: COLORS.steelblue,
                             fontWeight: "bold",
                             marginLeft: 6
                         }}>Click Here</Text>
@@ -255,7 +255,7 @@ const Login = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -282,7 +282,7 @@ const Login = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -309,7 +309,7 @@ const Login = ({navigation}) => {
                   flexDirection: "row",
                   height: 52,
                   borderWidth: 1,
-                  borderColor: COLORS.grey,
+                  borderColor: COLORS.white,
                   marginRight: 4,
                   borderRadius: 10,
                 }}
@@ -339,7 +339,7 @@ const Login = ({navigation}) => {
                     >
                         <Text style={{
                             fontSize: 16,
-                            color: COLORS.primary,
+                            color: COLORS. steelblue,
                             fontWeight: "bold",
                             marginLeft: 6
                         }}>Register Here</Text>
