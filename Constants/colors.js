@@ -11,5 +11,8 @@ const COLORS = {
       skyblue: "#87ceeb",
       slategray: "#708090",
       steelblue: "#4682b4",
+      cadetblue: "#5f9ea0",
+      gray: "#808080",
+      lightskyblue: "#87cefa",
     }
   export default COLORS;
