@@ -1,8 +1,9 @@
 import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
-import COLORS from "../Constants/colors";
-import Button from "../Buttons/Button";
+import COLORS from "../../Constants/colors";
+
+import Button from "../../Buttons/Button";
 
 const Welcome = ({ navigation }) => {
   return (
@@ -15,7 +16,7 @@ const Welcome = ({ navigation }) => {
     >
       <View style={{ flex: 1, alignContent: "center" }}>
         <View>
-          <Image source={require("../assets/HomeBG.jpg")}style ={{height: 1050, width: 650}}/> 
+          <Image source={require("../../assets/HomeBG.jpg")}style ={{height: 1050, width: 650}}/> 
         </View>
       
         {/* content */}
@@ -62,14 +63,18 @@ const Welcome = ({ navigation }) => {
             </Text>
           </View>
 
-          <Button
-            title="Back"
-            onPress={() => navigation.navigate("Welcome")}
-            style={{
-              marginTop: 75,
-              width: "100%",
-            }}
-          />
+          <Button onPress={() => navigation.navigate("Login")}
+                  title="Logout"
+                  filled
+                  style={{
+                  marginTop: 75,
+                  marginBottom: 2,
+                  backgroundColor: COLORS.cadetblue,
+                  borderColor: COLORS.skyblue,
+
+}}
+
+/>
 
           <View
             style={{

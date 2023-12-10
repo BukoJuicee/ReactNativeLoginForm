@@ -1,8 +1,8 @@
-import Login from "./Login";
-import Register from "./Register";
-import Welcome from "./Welcome";
-import Recovery from "./Recovery";
-import Home from "./Home";
+import Login from "./forms/Login";
+import Register from "./forms/Register";
+import Recovery from "./forms/Recovery";
+import Welcome from "./navigation/Welcome";
+import Home from "./navigation/Home";
 
 export { Login,
             Register,

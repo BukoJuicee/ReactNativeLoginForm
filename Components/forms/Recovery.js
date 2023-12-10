@@ -1,10 +1,10 @@
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import COLORS from "../Constants/colors";
+import COLORS from "../../Constants/colors";
 import { Ionicons } from "@expo/vector-icons";
 import { useState } from "react";
-import Button from "../Buttons/Button";
+import Button from "../../Buttons/Button";
 
 
 const Recover = ({navigation}) => {

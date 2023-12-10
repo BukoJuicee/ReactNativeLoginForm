@@ -1,8 +1,8 @@
 import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
-import COLORS from "../Constants/colors";
-import Button from "../Buttons/Button";
+import COLORS from "../../Constants/colors";
+import Button from "../../Buttons/Button";
 
 const Welcome = ({ navigation }) => {
   return (
@@ -17,7 +17,7 @@ const Welcome = ({ navigation }) => {
         
         <View>
 
-          <Image source={require("../assets/HomeBG.jpg")}style ={{height: 1050, width: 650}}/> 
+          <Image source={require("../../assets/HomeBG.jpg")}style ={{height: 1050, width: 650}}/> 
 
         </View>
       
